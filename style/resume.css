@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/red-and-blue-pillars-wallpaper-abstract-background-free-image.jpeg?w=600&quality=80") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Верхнє меню */
+header {
+    background: rgba(255,255,255,0.9);
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Центральна частина */
+.wrapper {
+    width: 600px;
+    margin: 30px auto;
+}
+
+/* Головна карточка */
+.card {
+    background: #eee;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Блоки */
+.block {
+    background: #eee;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.mini-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+/* Кнопки-навычки */
+.tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    background: white;
+    border: 1px solid #bbb;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
